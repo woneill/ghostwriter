@@ -1,8 +1,10 @@
-{{!< default}}
+{{ partial "header.html" . }}
 
 <div class="container">
     {{#post}}
-{{! No indention to prevent handlebars indenting <pre> tag content}}   
+{{! No indention to prevent handlebars indenting <pre> tag content}}
 {{> post-content}}
     {{/post}}
 </div>
+
+{{ partial "footer.html" . }}

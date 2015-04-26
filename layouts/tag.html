@@ -1,4 +1,4 @@
-{{!< default}}
+{{ partial "header.html" . }}
 
 <div class="container">
     <h1 class="page-title">Posts tagged: {{tag.name}}</h1>
@@ -11,3 +11,5 @@
         {{pagination}}
     </div>
 </div>
+
+{{ partial "footer.html" . }}

@@ -1,4 +1,4 @@
-{{!< default}}
+{{ partial "header.html" . }}
 
 <div class="container">
     {{#post}}
@@ -14,7 +14,7 @@
                     <img class="post-featured-image" src="{{image}}">
                 {{/if}}
 
-{{! No indention to prevent handlebars indenting <pre> tag content}}               
+{{! No indention to prevent handlebars indenting <pre> tag content}}
 {{{content}}}
 
                 {{#if tags}}
@@ -24,3 +24,5 @@
         </article>
     {{/post}}
 </div>
+
+{{ partial "footer.html" . }}
