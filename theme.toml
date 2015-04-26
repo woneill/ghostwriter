@@ -1,6 +1,6 @@
 name = "ghostwriter"
 license = "MIT"
-licenselink = "https://github.com/jbub/ghostwriter/blob/master/LICENSE.txt"
+licenselink = "https://github.com/jbub/ghostwriter/blob/master/LICENSE.md"
 description = "A fork of simple AJAX driven theme for the Ghost blogging platform ported to Hugo."
 homepage = "https://github.com/jbub/ghostwriter"
 tags = ["blog", "technical", "personal"]
