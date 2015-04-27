@@ -1,14 +1,17 @@
 {{ partial "header.html" . }}
 
-<div id="latest-post" class="container">
-
-</div>
+{{ with .Site.Params.latestpost }}
+    <div id="latest-post" class="container">
+        {{ range first 1 (where .Data.Pages "Type" "post") }}
+            {{ partial "post-content.html" . }}
+        {{ end }}
+    </div>
+{{ end }}
 
 <div id="post-index" class="container">
-    {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
-
+    {{ $pag := .Paginate (where .Data.Pages "Type" "post") }}
     <ol class="post-list">
-        {{ range $paginator.Pages }}
+        {{ range $pag.Pages }}
             {{ partial "post-stub.html" . }}
         {{ end }}
     </ol>
