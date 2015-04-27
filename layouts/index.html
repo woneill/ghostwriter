@@ -5,9 +5,11 @@
 </div>
 
 <div id="post-index" class="container">
+    {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+
     <ol class="post-list">
-        {{ range .Data.Pages }}
-            {{ partial "post-content.html" . }}
+        {{ range $paginator.Pages }}
+            {{ partial "post-stub.html" . }}
         {{ end }}
     </ol>
 
