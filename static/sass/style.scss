@@ -50,7 +50,7 @@ ul, ol {
     ul, ol { margin: 10px 0 0 20px; }
 
     li {
-        margin: 0 0 10px;
+        margin: 0 0 2px;
 
         &:last-of-type { margin-bottom: 0; }
     }
@@ -95,7 +95,7 @@ table {
     margin-bottom:40px;
     width: 100%;
 
-    tbody > tr:nth-child(odd) > td, 
+    tbody > tr:nth-child(odd) > td,
     tbody > tr:nth-child(odd) > th {
         background-color: #f7f7f3;
     }
@@ -192,7 +192,7 @@ table {
 /* ============================================================ */
 
 .site-header {
-    padding: 100px 0 0;
+    padding: 60px 0 0;
     overflow: auto;
     text-align: center;
     text-transform: uppercase;
@@ -249,8 +249,8 @@ table {
 
 .post-header {
     border-bottom: 6px solid $secondary;
-    margin: 0 0 50px;
-    padding: 0 0 80px;
+    margin: 0 0 30px;
+    padding: 0 0 30px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -356,10 +356,7 @@ table {
 /* ============================================================ */
 
 .post-list {
-    border-top: 6px solid $secondary;
     list-style: none;
-    margin: 80px 40px 0;
-    padding: 35px 0 0;
 }
 
 .post-stub {
@@ -580,7 +577,7 @@ table {
         margin-top: 5px;
     }
 
-    .post-date, 
+    .post-date,
     .blog-description,
     .author-meta {
         margin-top: 20px;
@@ -649,13 +646,13 @@ table {
         line-height: 1.2;
     }
 
-    .post-date, 
+    .post-date,
     .blog-description,
     .author-meta {
         line-height: 1.6;
     }
 
-    .post-date, 
+    .post-date,
     .blog-description,
     .author-meta {
         margin-top: 10px;
