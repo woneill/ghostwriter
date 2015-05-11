@@ -23,12 +23,12 @@
                 <div class="container">
                     <div class="site-title-wrapper">
                         {{ with .Site.Params.logo }}
-                            <a class="site-logo js-ajax-link" title="{{ .Title }}" href="{{ .Site.BaseURL }}">
+                            <a class="site-logo" title="{{ .Title }}" href="{{ .Site.BaseURL }}">
                                 <img src="{{ . }}" alt="{{ .Title }}" />
                             </a>
                         {{ else }}
                             <h1 class="site-title">
-                                <a class="js-ajax-link" title="{{ .Title }}" href="{{ .Site.BaseURL }}">{{ .Title }}</a>
+                                <a title="{{ .Title }}" href="{{ .Site.BaseURL }}">{{ .Title }}</a>
                             </h1>
                         {{ end }}
                         <a class="button-square" href="{{ .Site.BaseURL }}/rss.xml"><i class="fa fa-rss"></i></a>
@@ -55,13 +55,6 @@
                     </div>
 
                     <ul class="site-nav">
-                        <li class="site-nav-item">
-                            <a class="js-ajax-link" title="{{ .Title }}" href="{{ .Site.BaseURL }}">Latest Post</a>
-                        </li>
-                        <li class="site-nav-item">
-                            <a class="js-ajax-link js-show-index" title="{{ .Title }}" href="{{ .Site.BaseURL }}">Browse Posts</a>
-                        </li>
-
                         {{ partial "navigation.html" . }}
 
                         {{ with .Site.Params.logo }}
@@ -73,4 +66,4 @@
                 </div>
             </header>
 
-            <div id="ajax-container">
+            <div id="container">
