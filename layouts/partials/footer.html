@@ -7,23 +7,22 @@
                     <h1 class="site-title">
                         <a title="{{ .Title }}" href="{{ .Site.BaseURL }}">{{ .Title }}</a>
                     </h1>
-
                     <a class="button-square button-jump-top js-jump-top" href="#">
                         <i class="fa fa-angle-up"></i>
                     </a>
                 </div>
 
                 <p class="footer-copyright">
-                    <span>&copy; {{ .Date.Format "2006" }}</span>
-                    <span>/ Powered by <a href="http://gohugo.io/">Hugo</a></span>
-
+                    <span>&copy; {{ .Site.LastChange.Format "2006" }} / Powered by <a href="http://gohugo.io/">Hugo</a></span>
                 </p>
-                <p class="footer-copyright">Original <a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></p>
+                <p class="footer-copyright">
+                    <span>Original <a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                </p>
             </div>
         </footer>
 
         <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-        <script src="{{ .Site.BaseURL }}/js/jquery.fitvids.js"></script>
-        <script src="{{ .Site.BaseURL }}/js/scripts.js"></script>
+        <script src="{{ .Site.BaseURL }}js/jquery.fitvids.js"></script>
+        <script src="{{ .Site.BaseURL }}js/scripts.js"></script>
     </body>
 </html>
