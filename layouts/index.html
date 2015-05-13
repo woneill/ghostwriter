@@ -8,7 +8,7 @@
         </header>
     {{ end }}
 
-    <ol class="post-list">
+    <ol class="post-list" itemscope="" itemtype="http://schema.org/Blog">
         {{ $pag := .Paginate (where .Data.Pages "Type" "post") }}
         {{ range $pag.Pages }}
             {{ partial "post-stub.html" . }}
