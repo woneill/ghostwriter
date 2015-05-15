@@ -497,10 +497,10 @@ table {
     padding-top: 60px; }
 
   .site-title {
-    float: none; }
-
-  .site-title a {
-    margin-bottom: 10px; }
+    float: none;
+    margin-bottom: 15px; }
+    .site-title a {
+      float: none; }
 
   .site-nav-item {
     display: block;

@@ -561,10 +561,11 @@ table {
 
     .site-title {
         float: none;
-    }
+        margin-bottom: 15px;
 
-    .site-title a {
-        margin-bottom: 10px;
+        a {
+            float: none;
+        }
     }
 
     .site-nav-item {
