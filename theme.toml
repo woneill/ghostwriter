@@ -11,8 +11,7 @@ min_version = 0.13
     name = "Juraj Bubniak"
     homepage = "https://github.com/jbub"
 
-# If Porting existing theme
 [original]
-    author =  "roryg"
+    author = "roryg"
     homepage = "http://ghost.jollygoodthemes.com/ghostwriter/"
     repo = "https://github.com/roryg/ghostwriter"
