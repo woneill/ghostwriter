@@ -2,7 +2,19 @@
 
 Enhanced port of the Ghost "[ghostwriter](https://github.com/roryg/ghostwriter)" theme to the [Hugo](http://gohugo.io) site generator.
 
+## Installation
+
+Inside the folder of your Hugo site run:
+
+    $ mkdir themes
+    $ cd themes
+    $ git clone https://github.com/jbub/ghostwriter
+
+For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
+
 ## Example config.toml
+
+To customize your theme you can use following params:
 
 ```toml
 baseurl = "http://example.com/"
