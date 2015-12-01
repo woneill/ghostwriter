@@ -3,6 +3,7 @@ title = "Ghostwriter example"
 theme = "ghostwriter"
 languageCode = "en-us"
 copyright = "My Name"
+disqusShortname = "XXX"
 
 [Author]
     name = "My Name"

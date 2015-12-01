@@ -22,6 +22,7 @@ title = "mytitle"
 theme = "ghostwriter"
 languageCode = "en-us"
 copyright = "My Name"
+disqusShortname = "XXX"
 
 [Author]
     name = "My Name"
@@ -40,7 +41,6 @@ copyright = "My Name"
     twitter = "https://twitter.com/XXX"
     stackoverflow = "http://stackoverflow.com/users/XXX/YYY"
     ganalytics = "XXX"
-    disqus = "XXX"
 
 [Permalinks]
     post = "/:year/:month/:day/:filename/"
