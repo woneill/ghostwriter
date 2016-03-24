@@ -86,6 +86,14 @@ pre {
     font-size: 16px;
 }
 
+code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: $primary;
+    background-color: #F1F0EA;
+    border-radius: 4px
+}
+
 hr {
     border: none;
     border-bottom: 1px dotted #303030;
