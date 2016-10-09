@@ -42,6 +42,7 @@ disqusShortname = "XXX"
     gplus = "https://google.com/+XXX"
     twitter = "https://twitter.com/XXX"
     stackoverflow = "http://stackoverflow.com/users/XXX/YYY"
+    opengraph = true
 
 [Permalinks]
     post = "/:year/:month/:day/:filename/"
