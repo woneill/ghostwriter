@@ -1,4 +1,4 @@
-baseurl = "http://replace-this-with-your-domain.com/"
+baseurl = "https://example.com/"
 title = "Ghostwriter example"
 theme = "ghostwriter"
 languageCode = "en-us"
@@ -22,7 +22,7 @@ googleAnalytics = "XXX"
     linkedin = "https://linkedin.com/in/XXX/"
     gplus = "https://google.com/+XXX"
     twitter = "https://twitter.com/XXX"
-    stackoverflow = "http://stackoverflow.com/users/XXX/YYY"
+    stackoverflow = "https://stackoverflow.com/users/XXX/YYY"
     opengraph = true
 
 [Permalinks]

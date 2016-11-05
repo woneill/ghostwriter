@@ -1,6 +1,6 @@
 # Ghostwriter
 
-Enhanced port of the Ghost "[ghostwriter](https://github.com/roryg/ghostwriter)" theme to the [Hugo](http://gohugo.io) site generator.
+Enhanced port of the Ghost "[ghostwriter](https://github.com/roryg/ghostwriter)" theme to the [Hugo](https://gohugo.io) site generator.
 
 ## Installation
 
@@ -17,7 +17,7 @@ For more information read the official [setup guide](//gohugo.io/overview/instal
 To customize your theme you can use following params:
 
 ```toml
-baseurl = "http://example.com/"
+baseurl = "https://example.com/"
 title = "mytitle"
 theme = "ghostwriter"
 languageCode = "en-us"
@@ -41,7 +41,7 @@ disqusShortname = "XXX"
     linkedin = "https://linkedin.com/in/XXX/"
     gplus = "https://google.com/+XXX"
     twitter = "https://twitter.com/XXX"
-    stackoverflow = "http://stackoverflow.com/users/XXX/YYY"
+    stackoverflow = "https://stackoverflow.com/users/XXX/YYY"
     opengraph = true
 
 [Permalinks]
