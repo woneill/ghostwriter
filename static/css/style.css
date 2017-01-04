@@ -45,7 +45,6 @@ a {
   text-decoration: none; }
 
 ul, ol {
-  list-style-position: inside;
   line-height: 1.4;
   margin: 0 0 20px; }
   ul ul, ul ol, ol ul, ol ol {
