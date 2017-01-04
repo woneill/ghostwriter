@@ -313,6 +313,14 @@ table {
     }
 
     &:last-child { margin-bottom: 0; }
+
+    .footnote {
+        margin-bottom: 0;
+
+        .label + td {
+            width: 100%;
+        }
+    }
 }
 
 .post-footer { margin-top: 5px; }

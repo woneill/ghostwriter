@@ -276,6 +276,10 @@ table {
   padding: 0 0 2px; }
 .post-content:last-child {
   margin-bottom: 0; }
+.post-content .footnote {
+  margin-bottom: 0; }
+  .post-content .footnote .label + td {
+    width: 100%; }
 
 .post-footer {
   margin-top: 5px; }
