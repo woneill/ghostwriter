@@ -87,7 +87,7 @@ ul li:last-of-type, ol li:last-of-type { margin-bottom: 0; }
 blockquote { border-left: 1px dotted #f03838; margin: 40px 0; padding: 5px 30px; }
 blockquote p { color: #aeadad; display: block; font-style: italic; margin: 0; width: 100%; }
 img { display: block; margin: 40px 0; width: auto; max-width: 100%; }
-pre { background: #f1f0ea; border: 1px solid #dddbcc; border-radius: 3px; margin: 0 0 20px; padding: 10px; font-size: 16px; }
+pre { background: #f1f0ea; border: 1px solid #dddbcc; border-radius: 3px; margin: 0 0 20px; overflow-x: auto; padding: 10px; font-size: 16px; }
 pre code { padding: 0; }
 code { padding: 2px 4px; font-size: 90%; color: #f03838; background-color: #f1f0ea; border-radius: 4px; }
 hr { border: none; border-bottom: 1px dotted #303030; margin: 45px 0; }
