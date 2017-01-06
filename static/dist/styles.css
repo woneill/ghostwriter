@@ -133,6 +133,7 @@ table tr { border-bottom: 1px dotted #aeadad; }
 .post-content:last-child { margin-bottom: 0; }
 .post-content .footnote { border-spacing: 0; margin-bottom: 0; }
 .post-content .footnote .label + td { width: 100%; }
+.post-content .gist tr { border-bottom: 0; }
 .post-footer { margin-top: 5px; }
 .post-tags, .share { color: #aeadad; font-size: 14px; }
 .post-tags span, .share span { font-weight: 600; }
