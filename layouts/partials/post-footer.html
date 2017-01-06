@@ -2,8 +2,10 @@
     {{ if .Params.tags }}
         <p class="post-tags">
             <span>Tagged:</span>
-            {{ range .Params.tags }}
-                 <a href="/tags/{{ . | urlize }}/">{{ . }}</a>
+            {{ $len := len .Params.tags }}
+            {{ range $index, $tag := .Params.tags }}
+                <a href="/tags/{{ . | urlize }}/">{{ . }}</a>
+                {{- if lt $index (sub $len 1) -}}, {{ end }}
             {{ end }}
         </p>
     {{ end}}
