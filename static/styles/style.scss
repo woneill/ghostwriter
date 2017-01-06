@@ -315,6 +315,7 @@ table {
     &:last-child { margin-bottom: 0; }
 
     .footnote {
+        border-spacing: 0;
         margin-bottom: 0;
 
         .label + td {
