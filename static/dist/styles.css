@@ -210,6 +210,8 @@ table tr { border-bottom: 1px dotted #aeadad; }
  .share { float: left; margin-top: 20px; }
  .share a { margin: 0 5px 0 0; }
  .footer { margin-top: 50px; }
+ .footer .site-title-wrapper { text-align: center; }
+ .footer .button-jump-top { clear: both; display: inline-block; float: none; }
 }
 @media only screen and (max-width: 400px) {
  .site-header { padding-top: 40px; }

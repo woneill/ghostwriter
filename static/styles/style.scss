@@ -686,6 +686,16 @@ table {
 
     .footer {
         margin-top: 50px;
+
+        .site-title-wrapper {
+            text-align: center;
+        }
+
+        .button-jump-top {
+            clear: both;
+            display: inline-block;
+            float: none;
+        }
     }
 }
 
