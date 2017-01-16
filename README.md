@@ -65,6 +65,9 @@ disqusShortname = "XXX"
     stackoverflow = "https://stackoverflow.com/users/XXX/YYY"
     email = "XXX@example.com"
     opengraph = true
+    shareTwitter = true
+    shareFacebook = true
+    shareGooglePlus = true
 
 [Permalinks]
     post = "/:year/:month/:day/:filename/"
