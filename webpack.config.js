@@ -18,13 +18,15 @@ module.exports = {
   plugins: [
     new ExtractTextPlugin('[name].css'),
     new OptimizeCssAssetsPlugin({
-      cssProcessor: discardComments
+      cssProcessor: discardComments,
+      canPrint: false
     }),
     new OptimizeCssAssetsPlugin({
       cssProcessor: perfectionist,
       cssProcessorOptions: {
         format: 'compact'
-      }
+      },
+      canPrint: false
     })
   ],
   module: {
