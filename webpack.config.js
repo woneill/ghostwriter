@@ -9,7 +9,10 @@ module.exports = {
     styles: path.join(__dirname, 'static', 'styles'),
   },
   resolve: {
-    extensions: ['', '.scss'],
+    modules: [
+      'node_modules'
+    ],
+    extensions: ['.scss'],
   },
   output: {
     path: path.join(__dirname, 'static', 'dist'),
@@ -33,8 +36,9 @@ module.exports = {
     loaders: [
       {
         test: /\.scss$/,
-        loader: ExtractTextPlugin.extract('style-loader', 'css-loader!sass-loader')
+        loader: ExtractTextPlugin.extract({ fallbackLoader: 'style-loader', loader: 'css-loader!sass-loader' })
       }
     ]
   }
 };
+
