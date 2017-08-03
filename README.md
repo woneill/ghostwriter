@@ -70,6 +70,8 @@ disqusShortname = "XXX"
     shareGooglePlus = true
     shareLinkedIn = false
     dateFormat = "Mon, Jan 2, 2006"
+    highlightJsUrl = ""
+    highlightJsLocalUrl = ""
 
 [Permalinks]
     post = "/:year/:month/:day/:filename/"
