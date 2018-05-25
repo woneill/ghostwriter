@@ -72,6 +72,8 @@ disqusShortname = "XXX"
     dateFormat = "Mon, Jan 2, 2006"
     highlightJsUrl = ""
     highlightJsLocalUrl = ""
+    googleAnalyticsAnonymizeIP = false
+    googleAnalyticsRespectDoNotTrack = false
 
 [Permalinks]
     post = "/:year/:month/:day/:filename/"
