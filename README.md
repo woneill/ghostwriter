@@ -86,6 +86,8 @@ disqusShortname = "XXX"
     exponeaTarget = ""
     exponeaToken = ""
     exponeaTrackVisits = false
+    readingTime = true
+    readingTimeText = "Estimated reading time:"
 
 [Permalinks]
     post = "/:year/:month/:day/:filename/"
