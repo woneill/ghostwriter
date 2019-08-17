@@ -64,6 +64,7 @@ disqusShortname = "XXX"
     tag = "tags"
 
 [Params]
+    mainSections = ["post"]
     intro = true
     headline = "My headline"
     description = "My description"

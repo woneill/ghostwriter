@@ -24,6 +24,7 @@ googleAnalytics = "XXX"
     tag = "tags"
 
 [Params]
+    mainSections = ["post"]
     intro = true
     headline = "Ghostwriter example"
     description = "Ghostwriter example description"
