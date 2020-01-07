@@ -90,6 +90,8 @@ disqusShortname = "XXX"
     exponeaTrackVisits = false
     readingTime = true
     readingTimeText = "Estimated reading time:"
+    fathomUrl = ""
+    fathomSiteId = ""
 
 [Permalinks]
     post = "/:year/:month/:day/:filename/"
