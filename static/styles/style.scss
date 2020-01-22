@@ -2,9 +2,10 @@
 // ============================================================ //
 // ============================================================ //
 
-$primary: #F03838;
+$primary: #228822;
 $secondary: #303030;
 $background: #FEFEFE;
+$hover: #EAFAEA;
 
 /* ============================================================ */
 /* Base */
@@ -429,7 +430,7 @@ table {
         padding: 20px 5px;
 
         &:hover {
-            background: #FCF5F5;
+            background: $hover;
             color: $primary;
             padding: 20px 12px;
 
